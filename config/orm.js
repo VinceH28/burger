@@ -12,3 +12,23 @@ const printQuestionMarks = (num) => {
   return arr.toString();
 };
 
+// Helper function to convert object key/value pairs to SQL syntax
+const objToSql = (ob) => {
+  const arr = [];
+
+  for (const key in ob) {
+    let value = ob[key];
+    // Check to skip hidden properties
+    if (Object.hasOwnProperty.call(ob, key)) {
+
+      if (typeof value === 'string' && value.indexOf(' ') >= 0) {
+        value = `'${value}'`;
+      }
+
+      arr.push(`${key}=${value}`);
+    }
+  }
+
+  return arr.toString();
+};
+
