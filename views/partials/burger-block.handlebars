@@ -1,4 +1,35 @@
-<li>
+<div class="jumbotron">
+
+    <style>
+    .jumbotron {
+        background-image:url(https://github.com/VinceH28/burger/blob/master/public/assets/images/burger_partial_jumbotron.png?raw=true);
+        background-repeat: no-repeat;
+        background-position: right top;
+    }
+</style>
+
+  <h1 class="display-4">Create Your Own Burger! </h1>
+  <p class="lead"> This is a simple way to make the burger of your dreams. Anything you can think of....and we'll make it! </p>
+  <hr class="my-4">
+  <p>Input the burger of your desire and choose whether or not to enjoy iy.</p>
+  <p class="lead">
+    <a class="btn btn-primary btn-lg" href="#" role="button"> Let's get started eating! </a>
+  </p>
+  </div>
+
+<div class="card-body">
+
+    <style>
+    .card-body {
+        background-image:url(https://github.com/VinceH28/burger/blob/master/public/assets/images/butger_partialbackground.png?raw=true);
+        background-repeat: no-repeat;
+        background-position: right top;
+    }
+</style>
+
+<h3 class="display-4"> Let's get Started! </h3>
+
+  <li>
 	{{burgerName}}
 
 	<button class="change-devoured" data-id="{{id}}" data-newstate="{{devoured}}">
@@ -7,3 +38,4 @@
 
 	<button class="delete-burger" data-id="{{this.id}}"  style="border-radius: 12px; background-color:rgb(139, 139, 139);"> DELETE! </button>
 </li>
+</div>
