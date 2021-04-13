@@ -49,7 +49,7 @@ if (changeDevouredBtns) {
   
         // Grabs the value of the textarea that goes by the name, "quote"
         const newBurger = {
-          name: document.getElementById('bg').value.trim(),
+          burgerName: document.getElementById('bg').value.trim(),
           devoured: document.getElementById('devoured').checked,
         };
   
