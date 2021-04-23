@@ -1,4 +1,6 @@
 // Make sure we wait to attach our handlers until the DOM is fully loaded.
+app.use(express.static('../public/assets/images')); 
+
 document.addEventListener('DOMContentLoaded', (event) => {
     if (event) {
       console.info('DOM loaded');
