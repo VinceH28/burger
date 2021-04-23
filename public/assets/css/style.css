@@ -1,3 +1,26 @@
+.headerImage {
+  opacity: 0.8;
+  background-color: white;
+  text-align: center;
+  height: 10 rem;
+
+}
+
+.containerImage {
+  opacity: 0.8;
+  background-color: white;
+  text-align: center;
+  height: 10 rem;
+
+}
+
+.jumbotron {
+  opacity: 0.8;
+  background-color: white;
+  text-align: center;
+  height: 10 rem;
+}
+
 li {
     padding: 5px;
     margin: 5px;
@@ -16,5 +39,9 @@ li {
   
   .form-group {
     margin-bottom: 5px;
+  }
+
+  button {
+    margin: 8px;
   }
   
