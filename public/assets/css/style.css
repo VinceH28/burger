@@ -1,3 +1,6 @@
+*{
+  font-family:'Courier New', Courier, monospace;
+}
 .headerImage {
   opacity: 0.8;
   background-color: white;
@@ -21,6 +24,10 @@
   height: 10 rem;
 }
 
+.header{
+  text-align: center;
+}
+
 li {
     padding: 5px;
     margin: 5px;
@@ -34,7 +41,7 @@ li {
   .create-update-form {
     padding: 5px;
     margin: 5px;
-    background: grey;
+    background: rgb(102, 101, 101);
   }
   
   .form-group {
